@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: rgb(129, 180, 129);
+}
+
+.page{
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.nav-top{
+    display: flex;
+    color: #fff;
+    padding: 0px  30%;  
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(63, 120, 63);
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 10%;
+}
+
+.box{
+    color: rgb(102, 139, 102);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.nav-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 100px);
+}
+
+.elem{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 50%;
+    color:white
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(50, 84, 50);
+}
